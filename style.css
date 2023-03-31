@@ -1,0 +1,66 @@
+.header{
+    background-color: #1F2937;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style-type: none;
+    margin: 0 10px;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.push-left{
+    margin-right:auto;
+    font-size: 24px;
+    color:#F9FAF8;
+}
+a{
+    text-decoration: none;
+    color:#e5e7eb98;
+}
+.headers-kid-1{
+    display:flex;
+}
+.body{
+    display:flex;
+    flex-direction: column;
+}
+  .body .card {
+ flex: 1 1 auto;
+ height:100vh;
+}
+
+  
+
+.card .infoheader{
+    text-align: center;
+    font-size: 36px;
+    color:#1F2937;
+    min-height: 100px;
+    max-height: 200px;
+}
+.img{
+    display:flex;
+    min-height: 150px;
+    max-height: 200px;
+}
+.quote{
+    background-color: #E5E7EB;
+    min-height: 150px;
+    max-height:200px
+}
+.CTA{
+    display :flex;
+    background-color: aqua;
+    min-height: 150px;
+    max-height: auto;
+}
+.footer{
+    display:flex;
+    min-height:72px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
